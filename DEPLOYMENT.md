@@ -21,7 +21,11 @@ This project includes a Vercel-compatible version for easy deployment to the clo
 
 3. **Set Environment Variables:**
    - In your Vercel project dashboard, go to Settings → Environment Variables
-   - Add: `OPENAI_API_KEY` = `your-actual-api-key-here`
+   - Click "Add New"
+   - Name: `OPENAI_API_KEY`
+   - Value: `your-actual-api-key-here` (paste your OpenAI API key)
+   - Target: Select "Production", "Preview", and "Development"
+   - Click "Save"
 
 4. **Deploy:**
    - Vercel will automatically deploy when you push to main branch
